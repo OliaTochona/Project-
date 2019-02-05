@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      System.out.println("Введите  число : ");
+      Scanner input = new Scanner(System.in);
+
+       int f = input.nextInt();
+       int faktl = 1;
+
+       for(int i =1; i<=f; i++) {
+       faktl *= i;
+
+       }
+       System.out.println("Факториал числа" + f + " =" + faktl);
+        }
+
+    }
+
+
