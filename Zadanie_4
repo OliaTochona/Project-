@@ -1,0 +1,27 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      System.out.println("Введите код  продукта 1-2: ");
+      Scanner input = new Scanner(System.in);
+
+        int kod = input.nextInt();
+        if (kod==1){
+            System.out.println("Moloko 35grn ");
+
+        }
+        else
+            if(kod==2){
+            System.out.println("Konfeta Roshen 10grn ");
+        }
+            else {
+                System.out.println("Код неверный!");
+            }
+        }
+
+    }
+
+
