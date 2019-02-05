@@ -1,0 +1,25 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      System.out.println("Введите число n: ");
+      Scanner input = new Scanner(System.in);
+
+      int n = input.nextInt();
+
+      if (n%2 ==0){
+          System.out.println("Число " + n + " четное");
+
+      }
+      else
+          if  (n%2 !=0){
+            System.out.println("Число " + n + " нечетное");
+        }
+        }
+
+    }
+
+
