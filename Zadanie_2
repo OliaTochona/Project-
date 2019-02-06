@@ -1,0 +1,33 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Введите первое число:");
+        double n = input.nextInt();
+        System.out.println("Введите второе число:");
+        double n1 = input.nextInt();
+        System.out.println("Введите третье число:");
+        double n2 = input.nextInt();
+        System.out.println("Введите четвертое число:");
+        double n3 = input.nextInt();
+        double arr[] = {n,n1,n2,n3};
+        double a = arr.length;
+        double sum = (arr[0] + arr[1] + arr[2] + arr[3]);
+        double result = sum/a;
+        System.out.println("Среднее арифметическое :");
+        System.out.println(result);
+
+
+    }
+}
+
+
+
+
+
